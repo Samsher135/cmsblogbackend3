@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "my-project",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -12,7 +12,6 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
-    "mime-types": "^2.1.27",
     "mysql": "^2.18.1",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
@@ -23,7 +22,6 @@
     "strapi-plugin-content-manager": "3.6.8",
     "strapi-plugin-content-type-builder": "3.6.8",
     "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-graphql": "3.6.8",
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
@@ -33,9 +31,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "a57c8720-9004-4dce-aab0-66110a86a944",
-    "template": "https://github.com/strapi/strapi-template-blog",
-    "starter": "https://github.com/strapi/strapi-starter-gatsby-blog"
+    "uuid": "0cf631fd-52c5-4db4-b031-3ae53d4a75ad"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
